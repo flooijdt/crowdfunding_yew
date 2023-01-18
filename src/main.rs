@@ -3,4 +3,5 @@ fn main() {
     /* any comment. */
     println!("anyshee");
     /* other comment*/
+    /* another comment on the wall. */
 }
