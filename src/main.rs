@@ -3,10 +3,10 @@ use yew::prelude::*;
 #[function_component(App)]
 fn app() -> Html {
     html!(
-        <div>{r#"Hi"#}</div>
+        <h1>{"Hi"}</h1>
     )
 }
 
 fn main() {
-    yew::start_app::<App>();
+    yew::Renderer::<App>::new().render();
 }
