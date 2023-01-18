@@ -1,7 +1,12 @@
+use yew::prelude::*;
+
+#[function_component(App)]
+fn app() -> Html {
+    html!(
+        <div>Hi</div>
+    )
+}
+
 fn main() {
-    println!("Hello, world!");
-    /* any comment. */
-    println!("anyshee");
-    /* other comment*/
-    /* another comment on the wall. */
+    yew::start_app::<App>();
 }
